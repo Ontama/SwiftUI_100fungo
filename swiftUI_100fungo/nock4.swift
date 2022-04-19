@@ -9,7 +9,28 @@ import SwiftUI
 
 struct nock4: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Image("sg1")
+                .resizable()
+                .frame(width: 42, height: 42)
+            Spacer()
+            Image("sg1")
+                .resizable()
+                .frame(width: 42, height: 42)
+            Spacer()
+            Image("sg1")
+                .resizable()
+                .frame(width: 42, height: 42)
+            Spacer()
+            Image("sg1")
+                .resizable()
+                .frame(width: 42, height: 42)
+            Spacer()
+            Image("sg1")
+                .resizable()
+                .frame(width: 42, height: 42)
+        }
+        .padding(16)
     }
 }
 

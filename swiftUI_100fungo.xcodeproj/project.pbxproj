@@ -11,6 +11,8 @@
 		EA35A3F6280D266D00345975 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A3F5280D266D00345975 /* ContentView.swift */; };
 		EA35A3F8280D266D00345975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA35A3F7280D266D00345975 /* Assets.xcassets */; };
 		EA35A3FB280D266D00345975 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA35A3FA280D266D00345975 /* Preview Assets.xcassets */; };
+		EA35A402280D298400345975 /* nock3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A401280D298400345975 /* nock3.swift */; };
+		EA35A404280D2B3B00345975 /* nock4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A403280D2B3B00345975 /* nock4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		EA35A3F5280D266D00345975 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EA35A3F7280D266D00345975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA35A3FA280D266D00345975 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA35A401280D298400345975 /* nock3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock3.swift; sourceTree = "<group>"; };
+		EA35A403280D2B3B00345975 /* nock4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				EA35A3F3280D266D00345975 /* swiftUI_100fungoApp.swift */,
 				EA35A3F5280D266D00345975 /* ContentView.swift */,
+				EA35A401280D298400345975 /* nock3.swift */,
+				EA35A403280D2B3B00345975 /* nock4.swift */,
 				EA35A3F7280D266D00345975 /* Assets.xcassets */,
 				EA35A3F9280D266D00345975 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA35A3F6280D266D00345975 /* ContentView.swift in Sources */,
+				EA35A404280D2B3B00345975 /* nock4.swift in Sources */,
 				EA35A3F4280D266D00345975 /* swiftUI_100fungoApp.swift in Sources */,
+				EA35A402280D298400345975 /* nock3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

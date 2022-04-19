@@ -9,7 +9,12 @@ import SwiftUI
 
 struct nock3: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("sg1")
+            .resizable()
+            .scaledToFill()
+            .frame(width: 100, height: 100)
+            .cornerRadius(75)
+            .overlay(RoundedRectangle(cornerRadius: 75).stroke(.black, lineWidth: 4))
     }
 }
 
