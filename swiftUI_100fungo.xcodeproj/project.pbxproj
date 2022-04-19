@@ -13,6 +13,13 @@
 		EA35A3FB280D266D00345975 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA35A3FA280D266D00345975 /* Preview Assets.xcassets */; };
 		EA35A402280D298400345975 /* nock3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A401280D298400345975 /* nock3.swift */; };
 		EA35A404280D2B3B00345975 /* nock4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A403280D2B3B00345975 /* nock4.swift */; };
+		EA35A406280E44D700345975 /* nock5.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A405280E44D700345975 /* nock5.swift */; };
+		EA35A40A280E454A00345975 /* nock6.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A409280E454A00345975 /* nock6.swift */; };
+		EA35A40C280E45E600345975 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A40B280E45E600345975 /* SecondView.swift */; };
+		EA35A40F280E46AC00345975 /* nock7.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A40E280E46AC00345975 /* nock7.swift */; };
+		EA35A411280E498D00345975 /* nock8.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A410280E498D00345975 /* nock8.swift */; };
+		EA35A413280E4A4F00345975 /* nock9.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A412280E4A4F00345975 /* nock9.swift */; };
+		EA35A415280E4BB700345975 /* nock10.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A414280E4BB700345975 /* nock10.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +30,13 @@
 		EA35A3FA280D266D00345975 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EA35A401280D298400345975 /* nock3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock3.swift; sourceTree = "<group>"; };
 		EA35A403280D2B3B00345975 /* nock4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock4.swift; sourceTree = "<group>"; };
+		EA35A405280E44D700345975 /* nock5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock5.swift; sourceTree = "<group>"; };
+		EA35A409280E454A00345975 /* nock6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock6.swift; sourceTree = "<group>"; };
+		EA35A40B280E45E600345975 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		EA35A40E280E46AC00345975 /* nock7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock7.swift; sourceTree = "<group>"; };
+		EA35A410280E498D00345975 /* nock8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock8.swift; sourceTree = "<group>"; };
+		EA35A412280E4A4F00345975 /* nock9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock9.swift; sourceTree = "<group>"; };
+		EA35A414280E4BB700345975 /* nock10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock10.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +73,12 @@
 				EA35A3F5280D266D00345975 /* ContentView.swift */,
 				EA35A401280D298400345975 /* nock3.swift */,
 				EA35A403280D2B3B00345975 /* nock4.swift */,
+				EA35A405280E44D700345975 /* nock5.swift */,
+				EA35A40D280E45EB00345975 /* nock6 */,
+				EA35A40E280E46AC00345975 /* nock7.swift */,
+				EA35A410280E498D00345975 /* nock8.swift */,
+				EA35A412280E4A4F00345975 /* nock9.swift */,
+				EA35A414280E4BB700345975 /* nock10.swift */,
 				EA35A3F7280D266D00345975 /* Assets.xcassets */,
 				EA35A3F9280D266D00345975 /* Preview Content */,
 			);
@@ -71,6 +91,15 @@
 				EA35A3FA280D266D00345975 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA35A40D280E45EB00345975 /* nock6 */ = {
+			isa = PBXGroup;
+			children = (
+				EA35A409280E454A00345975 /* nock6.swift */,
+				EA35A40B280E45E600345975 /* SecondView.swift */,
+			);
+			path = nock6;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,10 +172,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA35A413280E4A4F00345975 /* nock9.swift in Sources */,
+				EA35A40F280E46AC00345975 /* nock7.swift in Sources */,
+				EA35A40C280E45E600345975 /* SecondView.swift in Sources */,
+				EA35A411280E498D00345975 /* nock8.swift in Sources */,
+				EA35A415280E4BB700345975 /* nock10.swift in Sources */,
 				EA35A3F6280D266D00345975 /* ContentView.swift in Sources */,
+				EA35A406280E44D700345975 /* nock5.swift in Sources */,
 				EA35A404280D2B3B00345975 /* nock4.swift in Sources */,
 				EA35A3F4280D266D00345975 /* swiftUI_100fungoApp.swift in Sources */,
 				EA35A402280D298400345975 /* nock3.swift in Sources */,
+				EA35A40A280E454A00345975 /* nock6.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
