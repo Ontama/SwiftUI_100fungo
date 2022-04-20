@@ -12,6 +12,7 @@ final class EmailViewModel: ObservableObject {
         didSet {
             UserDefaults.standard.set(email, forKey: emailkey)
             isActive = email.count > 8
+            print(email)
         }
     }
     private let emailkey = "email"
@@ -23,6 +24,10 @@ final class EmailViewModel: ObservableObject {
         guard isFirstApper else { return }
         isFirstApper = false
         
+        guard let email = UserDefaults.standard.string(forKey: emailkey) else { return }
+        self.email = email
+        
+        // fixme:条件に合えば自動遷移
         if email.count > 8 {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: { [weak self] in
                 self?.isActive = true

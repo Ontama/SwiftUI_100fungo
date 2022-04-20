@@ -34,6 +34,9 @@
 		EA35A42F280F8F8600345975 /* PasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A42E280F8F8600345975 /* PasswordViewModel.swift */; };
 		EA35A431280F8F8C00345975 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A430280F8F8C00345975 /* PasswordView.swift */; };
 		EA35A433280F92D800345975 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A432280F92D800345975 /* ButtonView.swift */; };
+		EA35A435280FAE3600345975 /* nock17.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A434280FAE3600345975 /* nock17.swift */; };
+		EA35A437280FAE4E00345975 /* CardViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A436280FAE4E00345975 /* CardViewModifier.swift */; };
+		EA35A43A280FAEED00345975 /* View+Extensiton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A439280FAEED00345975 /* View+Extensiton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +68,9 @@
 		EA35A42E280F8F8600345975 /* PasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewModel.swift; sourceTree = "<group>"; };
 		EA35A430280F8F8C00345975 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
 		EA35A432280F92D800345975 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		EA35A434280FAE3600345975 /* nock17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock17.swift; sourceTree = "<group>"; };
+		EA35A436280FAE4E00345975 /* CardViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModifier.swift; sourceTree = "<group>"; };
+		EA35A439280FAEED00345975 /* View+Extensiton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensiton.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +116,10 @@
 				EA35A416280E65A500345975 /* nock11.swift */,
 				EA35A418280E679C00345975 /* nock12.swift */,
 				EA35A41A280E6D1000345975 /* nock13.swift */,
-				EA35A423280F8E1D00345975 /* nock15.swift */,
 				EA35A41E280F868600345975 /* nock14 */,
+				EA35A423280F8E1D00345975 /* nock15.swift */,
 				EA35A427280F8F2F00345975 /* nock16 */,
+				EA35A438280FAEDB00345975 /* nock17 */,
 				EA35A3F7280D266D00345975 /* Assets.xcassets */,
 				EA35A3F9280D266D00345975 /* Preview Content */,
 			);
@@ -158,6 +165,16 @@
 				EA35A428280F8F5F00345975 /* CompleteView.swift */,
 			);
 			name = nock16;
+			sourceTree = "<group>";
+		};
+		EA35A438280FAEDB00345975 /* nock17 */ = {
+			isa = PBXGroup;
+			children = (
+				EA35A434280FAE3600345975 /* nock17.swift */,
+				EA35A436280FAE4E00345975 /* CardViewModifier.swift */,
+				EA35A439280FAEED00345975 /* View+Extensiton.swift */,
+			);
+			path = nock17;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,12 +250,15 @@
 				EA35A420280F86B200345975 /* Book.swift in Sources */,
 				EA35A419280E679C00345975 /* nock12.swift in Sources */,
 				EA35A433280F92D800345975 /* ButtonView.swift in Sources */,
+				EA35A437280FAE4E00345975 /* CardViewModifier.swift in Sources */,
 				EA35A413280E4A4F00345975 /* nock9.swift in Sources */,
 				EA35A40F280E46AC00345975 /* nock7.swift in Sources */,
 				EA35A40C280E45E600345975 /* SecondView.swift in Sources */,
+				EA35A435280FAE3600345975 /* nock17.swift in Sources */,
 				EA35A426280F8F0900345975 /* nock16.swift in Sources */,
 				EA35A411280E498D00345975 /* nock8.swift in Sources */,
 				EA35A415280E4BB700345975 /* nock10.swift in Sources */,
+				EA35A43A280FAEED00345975 /* View+Extensiton.swift in Sources */,
 				EA35A3F6280D266D00345975 /* ContentView.swift in Sources */,
 				EA35A42D280F8F7A00345975 /* EmailViewModel.swift in Sources */,
 				EA35A429280F8F5F00345975 /* CompleteView.swift in Sources */,
