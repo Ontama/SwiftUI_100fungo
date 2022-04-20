@@ -26,6 +26,7 @@
 		EA35A41D280E6F0200345975 /* nock14.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A41C280E6F0200345975 /* nock14.swift */; };
 		EA35A420280F86B200345975 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A41F280F86B200345975 /* Book.swift */; };
 		EA35A422280F86EE00345975 /* ShowMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A421280F86EE00345975 /* ShowMoreView.swift */; };
+		EA35A424280F8E1D00345975 /* nock15.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A423280F8E1D00345975 /* nock15.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		EA35A41C280E6F0200345975 /* nock14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock14.swift; sourceTree = "<group>"; };
 		EA35A41F280F86B200345975 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		EA35A421280F86EE00345975 /* ShowMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMoreView.swift; sourceTree = "<group>"; };
+		EA35A423280F8E1D00345975 /* nock15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock15.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				EA35A416280E65A500345975 /* nock11.swift */,
 				EA35A418280E679C00345975 /* nock12.swift */,
 				EA35A41A280E6D1000345975 /* nock13.swift */,
+				EA35A423280F8E1D00345975 /* nock15.swift */,
 				EA35A41E280F868600345975 /* nock14 */,
 				EA35A3F7280D266D00345975 /* Assets.xcassets */,
 				EA35A3F9280D266D00345975 /* Preview Content */,
@@ -206,6 +209,7 @@
 				EA35A411280E498D00345975 /* nock8.swift in Sources */,
 				EA35A415280E4BB700345975 /* nock10.swift in Sources */,
 				EA35A3F6280D266D00345975 /* ContentView.swift in Sources */,
+				EA35A424280F8E1D00345975 /* nock15.swift in Sources */,
 				EA35A422280F86EE00345975 /* ShowMoreView.swift in Sources */,
 				EA35A406280E44D700345975 /* nock5.swift in Sources */,
 				EA35A41D280E6F0200345975 /* nock14.swift in Sources */,
