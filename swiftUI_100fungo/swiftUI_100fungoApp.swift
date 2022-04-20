@@ -11,7 +11,7 @@ import SwiftUI
 struct swiftUI_100fungoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            nock16()
         }
     }
 }

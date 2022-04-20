@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//Text中の文字の太さや色を変える
 struct nock15: View {
     var body: some View {
         (Text("I ")

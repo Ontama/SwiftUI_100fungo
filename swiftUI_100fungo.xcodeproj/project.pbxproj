@@ -27,6 +27,13 @@
 		EA35A420280F86B200345975 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A41F280F86B200345975 /* Book.swift */; };
 		EA35A422280F86EE00345975 /* ShowMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A421280F86EE00345975 /* ShowMoreView.swift */; };
 		EA35A424280F8E1D00345975 /* nock15.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A423280F8E1D00345975 /* nock15.swift */; };
+		EA35A426280F8F0900345975 /* nock16.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A425280F8F0900345975 /* nock16.swift */; };
+		EA35A429280F8F5F00345975 /* CompleteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A428280F8F5F00345975 /* CompleteView.swift */; };
+		EA35A42B280F8F7200345975 /* EmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A42A280F8F7200345975 /* EmailView.swift */; };
+		EA35A42D280F8F7A00345975 /* EmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A42C280F8F7A00345975 /* EmailViewModel.swift */; };
+		EA35A42F280F8F8600345975 /* PasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A42E280F8F8600345975 /* PasswordViewModel.swift */; };
+		EA35A431280F8F8C00345975 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A430280F8F8C00345975 /* PasswordView.swift */; };
+		EA35A433280F92D800345975 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A432280F92D800345975 /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +58,13 @@
 		EA35A41F280F86B200345975 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		EA35A421280F86EE00345975 /* ShowMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMoreView.swift; sourceTree = "<group>"; };
 		EA35A423280F8E1D00345975 /* nock15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock15.swift; sourceTree = "<group>"; };
+		EA35A425280F8F0900345975 /* nock16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock16.swift; sourceTree = "<group>"; };
+		EA35A428280F8F5F00345975 /* CompleteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteView.swift; sourceTree = "<group>"; };
+		EA35A42A280F8F7200345975 /* EmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailView.swift; sourceTree = "<group>"; };
+		EA35A42C280F8F7A00345975 /* EmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewModel.swift; sourceTree = "<group>"; };
+		EA35A42E280F8F8600345975 /* PasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordViewModel.swift; sourceTree = "<group>"; };
+		EA35A430280F8F8C00345975 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		EA35A432280F92D800345975 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +112,7 @@
 				EA35A41A280E6D1000345975 /* nock13.swift */,
 				EA35A423280F8E1D00345975 /* nock15.swift */,
 				EA35A41E280F868600345975 /* nock14 */,
+				EA35A427280F8F2F00345975 /* nock16 */,
 				EA35A3F7280D266D00345975 /* Assets.xcassets */,
 				EA35A3F9280D266D00345975 /* Preview Content */,
 			);
@@ -129,6 +144,20 @@
 				EA35A421280F86EE00345975 /* ShowMoreView.swift */,
 			);
 			path = nock14;
+			sourceTree = "<group>";
+		};
+		EA35A427280F8F2F00345975 /* nock16 */ = {
+			isa = PBXGroup;
+			children = (
+				EA35A425280F8F0900345975 /* nock16.swift */,
+				EA35A432280F92D800345975 /* ButtonView.swift */,
+				EA35A42A280F8F7200345975 /* EmailView.swift */,
+				EA35A42C280F8F7A00345975 /* EmailViewModel.swift */,
+				EA35A430280F8F8C00345975 /* PasswordView.swift */,
+				EA35A42E280F8F8600345975 /* PasswordViewModel.swift */,
+				EA35A428280F8F5F00345975 /* CompleteView.swift */,
+			);
+			name = nock16;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,12 +232,16 @@
 			files = (
 				EA35A420280F86B200345975 /* Book.swift in Sources */,
 				EA35A419280E679C00345975 /* nock12.swift in Sources */,
+				EA35A433280F92D800345975 /* ButtonView.swift in Sources */,
 				EA35A413280E4A4F00345975 /* nock9.swift in Sources */,
 				EA35A40F280E46AC00345975 /* nock7.swift in Sources */,
 				EA35A40C280E45E600345975 /* SecondView.swift in Sources */,
+				EA35A426280F8F0900345975 /* nock16.swift in Sources */,
 				EA35A411280E498D00345975 /* nock8.swift in Sources */,
 				EA35A415280E4BB700345975 /* nock10.swift in Sources */,
 				EA35A3F6280D266D00345975 /* ContentView.swift in Sources */,
+				EA35A42D280F8F7A00345975 /* EmailViewModel.swift in Sources */,
+				EA35A429280F8F5F00345975 /* CompleteView.swift in Sources */,
 				EA35A424280F8E1D00345975 /* nock15.swift in Sources */,
 				EA35A422280F86EE00345975 /* ShowMoreView.swift in Sources */,
 				EA35A406280E44D700345975 /* nock5.swift in Sources */,
@@ -216,7 +249,10 @@
 				EA35A404280D2B3B00345975 /* nock4.swift in Sources */,
 				EA35A417280E65A500345975 /* nock11.swift in Sources */,
 				EA35A3F4280D266D00345975 /* swiftUI_100fungoApp.swift in Sources */,
+				EA35A42B280F8F7200345975 /* EmailView.swift in Sources */,
+				EA35A431280F8F8C00345975 /* PasswordView.swift in Sources */,
 				EA35A402280D298400345975 /* nock3.swift in Sources */,
+				EA35A42F280F8F8600345975 /* PasswordViewModel.swift in Sources */,
 				EA35A41B280E6D1000345975 /* nock13.swift in Sources */,
 				EA35A40A280E454A00345975 /* nock6.swift in Sources */,
 			);

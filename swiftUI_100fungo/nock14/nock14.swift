@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//SwiftUIで続きを読む。。。ボタンがあるViewを実装する
 struct nock14: View {
     
     var body: some View {
