@@ -37,6 +37,7 @@
 		EA35A435280FAE3600345975 /* nock17.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A434280FAE3600345975 /* nock17.swift */; };
 		EA35A437280FAE4E00345975 /* CardViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A436280FAE4E00345975 /* CardViewModifier.swift */; };
 		EA35A43A280FAEED00345975 /* View+Extensiton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A439280FAEED00345975 /* View+Extensiton.swift */; };
+		EA35A43C280FB0A700345975 /* nock18.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A43B280FB0A700345975 /* nock18.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		EA35A434280FAE3600345975 /* nock17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock17.swift; sourceTree = "<group>"; };
 		EA35A436280FAE4E00345975 /* CardViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModifier.swift; sourceTree = "<group>"; };
 		EA35A439280FAEED00345975 /* View+Extensiton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensiton.swift"; sourceTree = "<group>"; };
+		EA35A43B280FB0A700345975 /* nock18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock18.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				EA35A423280F8E1D00345975 /* nock15.swift */,
 				EA35A427280F8F2F00345975 /* nock16 */,
 				EA35A438280FAEDB00345975 /* nock17 */,
+				EA35A43B280FB0A700345975 /* nock18.swift */,
 				EA35A3F7280D266D00345975 /* Assets.xcassets */,
 				EA35A3F9280D266D00345975 /* Preview Content */,
 			);
@@ -253,6 +256,7 @@
 				EA35A437280FAE4E00345975 /* CardViewModifier.swift in Sources */,
 				EA35A413280E4A4F00345975 /* nock9.swift in Sources */,
 				EA35A40F280E46AC00345975 /* nock7.swift in Sources */,
+				EA35A43C280FB0A700345975 /* nock18.swift in Sources */,
 				EA35A40C280E45E600345975 /* SecondView.swift in Sources */,
 				EA35A435280FAE3600345975 /* nock17.swift in Sources */,
 				EA35A426280F8F0900345975 /* nock16.swift in Sources */,
