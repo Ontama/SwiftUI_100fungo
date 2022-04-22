@@ -43,6 +43,11 @@
 		EA35A443280FB25600345975 /* SumikkoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A442280FB25600345975 /* SumikkoCell.swift */; };
 		EA35A445281233B300345975 /* Sumikkos.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A444281233B300345975 /* Sumikkos.swift */; };
 		EA35A44728124C0200345975 /* nock20.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A44628124C0200345975 /* nock20.swift */; };
+		EA35A44A28124D3100345975 /* nock21.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A44928124D3100345975 /* nock21.swift */; };
+		EA35A44C28124D7800345975 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A44B28124D7800345975 /* TutorialView.swift */; };
+		EA35A44E28124E6800345975 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A44D28124E6800345975 /* PageView.swift */; };
+		EA35A45028124F4F00345975 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A44F28124F4F00345975 /* PageViewController.swift */; };
+		EA35A452281251D200345975 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A451281251D200345975 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +88,11 @@
 		EA35A442280FB25600345975 /* SumikkoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumikkoCell.swift; sourceTree = "<group>"; };
 		EA35A444281233B300345975 /* Sumikkos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sumikkos.swift; sourceTree = "<group>"; };
 		EA35A44628124C0200345975 /* nock20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock20.swift; sourceTree = "<group>"; };
+		EA35A44928124D3100345975 /* nock21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock21.swift; sourceTree = "<group>"; };
+		EA35A44B28124D7800345975 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		EA35A44D28124E6800345975 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		EA35A44F28124F4F00345975 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		EA35A451281251D200345975 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +143,9 @@
 				EA35A427280F8F2F00345975 /* nock16 */,
 				EA35A438280FAEDB00345975 /* nock17 */,
 				EA35A43B280FB0A700345975 /* nock18.swift */,
-				EA35A44628124C0200345975 /* nock20.swift */,
 				EA35A43D280FB1F200345975 /* nock19 */,
+				EA35A44628124C0200345975 /* nock20.swift */,
+				EA35A44828124D2200345975 /* nock21 */,
 				EA35A3F7280D266D00345975 /* Assets.xcassets */,
 				EA35A3F9280D266D00345975 /* Preview Content */,
 			);
@@ -201,6 +212,18 @@
 				EA35A444281233B300345975 /* Sumikkos.swift */,
 			);
 			path = nock19;
+			sourceTree = "<group>";
+		};
+		EA35A44828124D2200345975 /* nock21 */ = {
+			isa = PBXGroup;
+			children = (
+				EA35A44928124D3100345975 /* nock21.swift */,
+				EA35A44B28124D7800345975 /* TutorialView.swift */,
+				EA35A44D28124E6800345975 /* PageView.swift */,
+				EA35A451281251D200345975 /* PageControl.swift */,
+				EA35A44F28124F4F00345975 /* PageViewController.swift */,
+			);
+			path = nock21;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,6 +305,7 @@
 				EA35A43C280FB0A700345975 /* nock18.swift in Sources */,
 				EA35A40C280E45E600345975 /* SecondView.swift in Sources */,
 				EA35A43F280FB20E00345975 /* nock19.swift in Sources */,
+				EA35A44E28124E6800345975 /* PageView.swift in Sources */,
 				EA35A435280FAE3600345975 /* nock17.swift in Sources */,
 				EA35A426280F8F0900345975 /* nock16.swift in Sources */,
 				EA35A411280E498D00345975 /* nock8.swift in Sources */,
@@ -293,6 +317,7 @@
 				EA35A441280FB22300345975 /* Sumikko.swift in Sources */,
 				EA35A424280F8E1D00345975 /* nock15.swift in Sources */,
 				EA35A422280F86EE00345975 /* ShowMoreView.swift in Sources */,
+				EA35A44C28124D7800345975 /* TutorialView.swift in Sources */,
 				EA35A406280E44D700345975 /* nock5.swift in Sources */,
 				EA35A41D280E6F0200345975 /* nock14.swift in Sources */,
 				EA35A404280D2B3B00345975 /* nock4.swift in Sources */,
@@ -300,11 +325,14 @@
 				EA35A44728124C0200345975 /* nock20.swift in Sources */,
 				EA35A445281233B300345975 /* Sumikkos.swift in Sources */,
 				EA35A3F4280D266D00345975 /* swiftUI_100fungoApp.swift in Sources */,
+				EA35A452281251D200345975 /* PageControl.swift in Sources */,
 				EA35A42B280F8F7200345975 /* EmailView.swift in Sources */,
 				EA35A431280F8F8C00345975 /* PasswordView.swift in Sources */,
 				EA35A402280D298400345975 /* nock3.swift in Sources */,
 				EA35A42F280F8F8600345975 /* PasswordViewModel.swift in Sources */,
+				EA35A45028124F4F00345975 /* PageViewController.swift in Sources */,
 				EA35A41B280E6D1000345975 /* nock13.swift in Sources */,
+				EA35A44A28124D3100345975 /* nock21.swift in Sources */,
 				EA35A40A280E454A00345975 /* nock6.swift in Sources */,
 				EA35A443280FB25600345975 /* SumikkoCell.swift in Sources */,
 			);
