@@ -42,6 +42,7 @@
 		EA35A441280FB22300345975 /* Sumikko.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A440280FB22300345975 /* Sumikko.swift */; };
 		EA35A443280FB25600345975 /* SumikkoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A442280FB25600345975 /* SumikkoCell.swift */; };
 		EA35A445281233B300345975 /* Sumikkos.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A444281233B300345975 /* Sumikkos.swift */; };
+		EA35A44728124C0200345975 /* nock20.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A44628124C0200345975 /* nock20.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		EA35A440280FB22300345975 /* Sumikko.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sumikko.swift; sourceTree = "<group>"; };
 		EA35A442280FB25600345975 /* SumikkoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumikkoCell.swift; sourceTree = "<group>"; };
 		EA35A444281233B300345975 /* Sumikkos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sumikkos.swift; sourceTree = "<group>"; };
+		EA35A44628124C0200345975 /* nock20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock20.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				EA35A427280F8F2F00345975 /* nock16 */,
 				EA35A438280FAEDB00345975 /* nock17 */,
 				EA35A43B280FB0A700345975 /* nock18.swift */,
+				EA35A44628124C0200345975 /* nock20.swift */,
 				EA35A43D280FB1F200345975 /* nock19 */,
 				EA35A3F7280D266D00345975 /* Assets.xcassets */,
 				EA35A3F9280D266D00345975 /* Preview Content */,
@@ -294,6 +297,7 @@
 				EA35A41D280E6F0200345975 /* nock14.swift in Sources */,
 				EA35A404280D2B3B00345975 /* nock4.swift in Sources */,
 				EA35A417280E65A500345975 /* nock11.swift in Sources */,
+				EA35A44728124C0200345975 /* nock20.swift in Sources */,
 				EA35A445281233B300345975 /* Sumikkos.swift in Sources */,
 				EA35A3F4280D266D00345975 /* swiftUI_100fungoApp.swift in Sources */,
 				EA35A42B280F8F7200345975 /* EmailView.swift in Sources */,
