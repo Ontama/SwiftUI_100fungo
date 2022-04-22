@@ -48,6 +48,12 @@
 		EA35A44E28124E6800345975 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A44D28124E6800345975 /* PageView.swift */; };
 		EA35A45028124F4F00345975 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A44F28124F4F00345975 /* PageViewController.swift */; };
 		EA35A452281251D200345975 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A451281251D200345975 /* PageControl.swift */; };
+		EA35A4542812561200345975 /* nock22.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A4532812561200345975 /* nock22.swift */; };
+		EA35A4572812567800345975 /* ViewControllerHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A4562812567800345975 /* ViewControllerHolder.swift */; };
+		EA35A4592812569600345975 /* ViewControllerKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A4582812569600345975 /* ViewControllerKey.swift */; };
+		EA35A45B2812587800345975 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A45A2812587800345975 /* ModalView.swift */; };
+		EA35A45D281259FE00345975 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A45C281259FD00345975 /* UIViewController+Extension.swift */; };
+		EA35A45F2812820600345975 /* EnvironmentValues+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA35A45E2812820600345975 /* EnvironmentValues+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +99,12 @@
 		EA35A44D28124E6800345975 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		EA35A44F28124F4F00345975 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		EA35A451281251D200345975 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
+		EA35A4532812561200345975 /* nock22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nock22.swift; sourceTree = "<group>"; };
+		EA35A4562812567800345975 /* ViewControllerHolder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHolder.swift; sourceTree = "<group>"; };
+		EA35A4582812569600345975 /* ViewControllerKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerKey.swift; sourceTree = "<group>"; };
+		EA35A45A2812587800345975 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		EA35A45C281259FD00345975 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		EA35A45E2812820600345975 /* EnvironmentValues+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnvironmentValues+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +158,7 @@
 				EA35A43D280FB1F200345975 /* nock19 */,
 				EA35A44628124C0200345975 /* nock20.swift */,
 				EA35A44828124D2200345975 /* nock21 */,
+				EA35A4552812566200345975 /* nock22 */,
 				EA35A3F7280D266D00345975 /* Assets.xcassets */,
 				EA35A3F9280D266D00345975 /* Preview Content */,
 			);
@@ -226,6 +239,19 @@
 			path = nock21;
 			sourceTree = "<group>";
 		};
+		EA35A4552812566200345975 /* nock22 */ = {
+			isa = PBXGroup;
+			children = (
+				EA35A4532812561200345975 /* nock22.swift */,
+				EA35A45A2812587800345975 /* ModalView.swift */,
+				EA35A4562812567800345975 /* ViewControllerHolder.swift */,
+				EA35A4582812569600345975 /* ViewControllerKey.swift */,
+				EA35A45C281259FD00345975 /* UIViewController+Extension.swift */,
+				EA35A45E2812820600345975 /* EnvironmentValues+Extension.swift */,
+			);
+			path = nock22;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -301,10 +327,14 @@
 				EA35A433280F92D800345975 /* ButtonView.swift in Sources */,
 				EA35A437280FAE4E00345975 /* CardViewModifier.swift in Sources */,
 				EA35A413280E4A4F00345975 /* nock9.swift in Sources */,
+				EA35A45B2812587800345975 /* ModalView.swift in Sources */,
 				EA35A40F280E46AC00345975 /* nock7.swift in Sources */,
 				EA35A43C280FB0A700345975 /* nock18.swift in Sources */,
 				EA35A40C280E45E600345975 /* SecondView.swift in Sources */,
+				EA35A4592812569600345975 /* ViewControllerKey.swift in Sources */,
 				EA35A43F280FB20E00345975 /* nock19.swift in Sources */,
+				EA35A4572812567800345975 /* ViewControllerHolder.swift in Sources */,
+				EA35A45D281259FE00345975 /* UIViewController+Extension.swift in Sources */,
 				EA35A44E28124E6800345975 /* PageView.swift in Sources */,
 				EA35A435280FAE3600345975 /* nock17.swift in Sources */,
 				EA35A426280F8F0900345975 /* nock16.swift in Sources */,
@@ -318,6 +348,7 @@
 				EA35A424280F8E1D00345975 /* nock15.swift in Sources */,
 				EA35A422280F86EE00345975 /* ShowMoreView.swift in Sources */,
 				EA35A44C28124D7800345975 /* TutorialView.swift in Sources */,
+				EA35A4542812561200345975 /* nock22.swift in Sources */,
 				EA35A406280E44D700345975 /* nock5.swift in Sources */,
 				EA35A41D280E6F0200345975 /* nock14.swift in Sources */,
 				EA35A404280D2B3B00345975 /* nock4.swift in Sources */,
@@ -330,6 +361,7 @@
 				EA35A431280F8F8C00345975 /* PasswordView.swift in Sources */,
 				EA35A402280D298400345975 /* nock3.swift in Sources */,
 				EA35A42F280F8F8600345975 /* PasswordViewModel.swift in Sources */,
+				EA35A45F2812820600345975 /* EnvironmentValues+Extension.swift in Sources */,
 				EA35A45028124F4F00345975 /* PageViewController.swift in Sources */,
 				EA35A41B280E6D1000345975 /* nock13.swift in Sources */,
 				EA35A44A28124D3100345975 /* nock21.swift in Sources */,
